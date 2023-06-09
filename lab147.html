@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let car = new Object()
+        car.color = "white";
+        car.maxSpeed = 200;
+        car.brand = "nissan"
+        document.write("qwdqdq " + car.color + "<br>")
+        let moto = {
+            color: "blue",
+            "horsepower" : 130,
+            brand: " yamaha"
+
+        }
+        document.write("e vjnj ghj " + moto.brand)
+        document.write("<hr>")
+        document.write(moto["horsepower"])
+        document.write("<hr>")
+        alert(moto["horsepower"])
+        delete moto["horsepower"]
+        alert(moto["horsepower"])
+    </script>
+</body>
+</html>
